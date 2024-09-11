@@ -1,0 +1,245 @@
+body {
+    background: #ECEEEF;
+    color:white;
+    font-family: 'League Spartan', sans-serif;
+    
+}
+.Form {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 20px;
+}
+
+
+.Form h2 {
+    color: #0D2345; 
+    font-weight: 700; 
+    margin-bottom: 20px;
+}
+
+
+.form-group {
+    margin-bottom: 15px; 
+}
+
+.form-group label {
+    font-weight: 600; 
+    color: #0D2345;
+}
+
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+    box-shadow: none; 
+    font-size: 16px; 
+    padding: 10px; 
+}
+
+.btn-primary {
+    background-color: #0D2345; 
+    border: none; 
+    border-radius: 4px; 
+    font-weight: 600; 
+    padding: 10px 20px; 
+    color: #fff;  
+}
+
+.btn-primary:hover {
+    background-color: #0a1b36; 
+}
+
+.link p {
+    margin-top: 10px; 
+}
+
+.link a {
+    color: #0D2345; 
+    text-decoration: none; 
+    font-weight: 600; 
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+#loginResult {
+    color: #ff0000;
+    margin-top: 10px; 
+    font-weight: 600;
+}
+#indexBtn{
+    background: #1978E1;
+    color: white;
+    font-weight: 700;
+    border:1px #F27E55; 
+}
+.sign-head h2{
+    color: #D86E36;
+}
+  .error-message {
+        color: red;
+    }
+
+    .success-message {
+        color: green;
+    }
+/*index page*/
+.nav-color {
+    background-color: #0D2345;
+}
+.nav-color a{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav-color a:hover{
+    color: #1978E1;
+}
+.nav-color .dropdown-color {
+    background-color: #1978E1;
+}
+.nav-color .dropdown-color:hover {
+    background-color: white;
+}
+.nav-color span{
+    color: #1978E1;
+    font-family: 'Satisfy', cursive;
+}
+.nav-color span:hover{
+    color: white;
+}
+.index-content  span{
+    color:#1978E1;;
+    font-family: 'Satisfy', cursive;
+}
+.index-content{
+height: 100vh;
+}
+
+.container {
+    width: 70%;
+}
+
+/*dashboard*/
+
+.sidebar {
+    background-color:#0D2345;
+    padding: 15px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 230px;
+    z-index: 1000;
+}
+        
+.sidebar .sidebarnavs a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.sidebar .sidebarnavs a:hover {
+    background-color: #1978E1;
+}
+.sidebar-toggle {
+    display: none;
+}
+.sidebar h5 {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ecf0f1;
+    margin-bottom: 20px;
+}
+.navbar-brand {
+    color: #ecf0f1;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+.content {
+    margin-left: 230px;
+    padding: 20px;
+}
+
+.card-style {
+    background-color:#0D2345;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cards{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.card-header{
+    background-color:white;
+    color:#0D2345;
+}
+.card-body{
+    background-color:#0D2345;
+    color: white;
+}
+
+.fs-2 {
+    font-size: 32px;
+}
+
+.delete-btn{
+    background-color:white;
+    color: #1978E1;
+    border-color: #252A39;
+}
+.error-message {
+        color: white; 
+        background: #1978E1;
+        padding:10px;
+        border-radius: 20px;
+    }
+
+    .success-message {
+        color: white; 
+        background:#1978E1;
+        padding:10px;
+        border-radius: 20px;
+    }
+
+
+ /*manage expense*/   
+ .table{
+    font-size: 20px;
+ }
+
+
+
+  @media (max-width: 992px) {
+            .sidebar {
+                width: 100%;
+                position: relative;
+                height: auto;
+                display: none;
+            }
+
+            .sidebar.active {
+                display: block;
+            }
+
+            .sidebar-toggle {
+                display: block;
+                position: fixed;
+                top: 15px;
+                left: 15px;
+                z-index: 1050;
+                cursor: pointer;
+            }
+        }
